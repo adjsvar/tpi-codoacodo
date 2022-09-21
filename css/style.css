@@ -1,0 +1,91 @@
+:root {
+    --gris-oscuro: #353A40;
+    --gris-claro: #9C9BA0;
+    --verde: #29A744;
+}
+
+header {
+    text-align: center;
+}
+
+.bg-gris {
+    background-color: #353A40;
+}
+
+.nav-conf {
+    padding: 10px 5%;
+}
+.nav-h {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-h:visited {
+    color: white;
+}
+
+.nav-l {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-l a {
+    color: var(--gris-claro);
+}
+
+.nav-l a:hover {
+    color: white;
+}
+
+.nav-l a:active {
+    color: white;
+}
+
+.nav-l a:visited {
+    color: var(--gris-claro);
+}
+
+.verde {
+    color: #29A744 !important;
+}
+
+
+.carousel-inner img {
+    max-height: 900px;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.carousel-leyenda {
+    z-index: 999;
+    max-width: 750px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: white;
+    text-align: right;
+}
+
+.carousel-leyenda > h5 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.carousel-leyenda > p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.hablar::placeholder {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #1E4C66;
+}
+
+footer > .nav > .nav-item > a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
